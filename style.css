@@ -1,0 +1,59 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.navbar-custom {
+    background-color: #dc3545;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.icon-box {
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    transition: background-color 0.3s, color 0.3s;
+}
+.icon-box:hover,
+.icon-box.active {
+    background-color: #ffffff;
+    color: #dc3545;
+}
+.icon-box i {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.icon-text {
+    font-size: 12px;
+    /* font-weight: bold; */
+}
+
+.navbar-custom .col-3 {
+    border-right: 1.5px solid #ffffff;
+}
+.navbar-custom .col-3:last-child {
+    border-right: none;
+}
+.section-header {
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.btn-custom {
+    width: 100%;
+    font-size: 14px;
+    padding: 10px;
+}
+.text-highlight {
+    color: #dc3545;
+    font-weight: bold;
+}
+@media (min-width: 768px) {
+    .btn-custom {
+        width: auto;
+        padding: 8px 20px;
+    }
+}
+#beranda, #promosi, #infoproduk, #antipemalsuan {
+    scroll-margin-top: 70px; 
+}
